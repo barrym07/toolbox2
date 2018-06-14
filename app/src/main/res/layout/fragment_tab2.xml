@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/test2id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="Important AFIs"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/button2903view"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="51dp"
+        android:text="@string/afi_2903"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2903view"
+        android:layout_alignStart="@+id/textView3"
+        android:text="@string/afi2903desc" />
+
+    <Button
+        android:id="@+id/buttonShepSUp"
+        android:layout_width="138dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button2903view"
+        android:layout_below="@+id/button2903view"
+        android:text="@string/shep_sup"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="126dp"
+        android:text="@string/sup2903desc"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button2905"
+        android:layout_alignStart="@+id/textView2"
+        android:text="@string/afi2905desc" />
+
+    <Button
+        android:id="@+id/button2905"
+        android:layout_width="139dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/button2903view"
+        android:layout_below="@+id/buttonShepSUp"
+        android:text="@string/afi_2905" />
+</RelativeLayout>
